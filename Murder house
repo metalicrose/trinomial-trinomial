@@ -1,0 +1,92 @@
+import time
+import random
+def game():  
+    name = input('What is your name?')
+    print('Ready', name, '?')
+    time.sleep(1)
+    print('its a cold night')
+    time.sleep(2)
+    print('you are comeing home from a long day of work')
+    time.sleep(2.5)
+    print('you walk up to the front door')
+    time.sleep(1)
+    print('you notice the door is ajar')
+    time.sleep(3)
+    print('nervously you open the door')
+    time.sleep(1)
+    print('your eyes are immediatly drawn to the large pool of blood')
+    time.sleep(1)
+    #story up to first choice
+
+def ask('Where do you look first? Up,Down,Right,Left'):
+    answer = input(question +'Up,Down,Right,Left')
+    return answer in['down', 'Down', 'DOWN', 'd', 'D']
+        print('you stare into the pool of blood')
+        time.sleep(1)
+    
+elif look in ['right','Right','r','R','RIGHT']:
+    print('you see your phone of the kitchen counter')
+    time.sleep(1)
+    call= str(input('do you call for help? yes,no'))#look right
+          
+    if call in ['yes','Yes','YES','y','Y']:
+        count=(count+1)
+        print('you dial in the number')
+        time.sleep(1)   
+        print('briiiiiinnnnggg')
+        time.sleep(1)
+        print('briiiiiinnnnggg')
+        time.sleep(1)
+        print('briiiiiinnnnggg')
+        time.sleep(2)
+        print('a sudden warm sensation starts in your back')
+        time.sleep(3)
+        print('you reach back')
+        time.sleep(3)
+        print('theres a knife deep in your back')
+        print('___88888 ')
+        print('___8___8 ')
+        print('____888 ')
+        print('8___838___8 ')
+        print('888_838_888 ')
+        print('__8888888 ')
+        print('___81_18 ')
+        print('___81_18 ')
+        print('___81_18 ')
+        print('___81_18 ')
+        print('___81_18 ')
+        print('____818 ')
+        print('_____8 ')
+        time.sleep(4)
+        print('everything starts to go black as the voice on the phone picks up')#look right+call=DONE
+        time.sleep(3)
+        print('you became another victim')
+    else:
+            print('you look around for some kind of wepon')
+            time.sleep(1)
+            wepon= str(input('you found a knife, a frying pan, and a rolling pin. which do you take?'))#look left-call=WORK
+    
+elif look in['up','Up','UP','U','u']:#look up -main
+    print('you look up an see a red stain direcly above the pool of blood')
+    time.sleep(2.5)
+    print('something happend up there')
+    time.sleep(1)
+    move= str(input('Do you go upstairs? yes, no')
+    
+    if move in['yes','Yes','YES','y','Y']:
+        print('you slowly creep up the stairs...')
+        time.sleep(3)
+        print('at the top you look down the hall')
+        time.sleep(1)
+        print('there is blood everywhere')
+        time.sleep(1)
+        print('there must have been a stuggle, there are broken prctures')
+        time.sleep(1)
+        print('there are claw marks down the wall')
+        
+elif look in['left','Left','LEFT','l','L']
+    #look left undone
+    print('')
+
+else:
+    print('work with me here!')
